@@ -140,6 +140,10 @@ header {
     animation: bottomup 700ms 350ms reverse backwards;
 }
 
+.card img {
+    animation: bottomup 1.5s reverse;
+}
+
 @keyframes bottomup {
     100% {
         opacity: 0;
